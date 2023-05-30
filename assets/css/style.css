@@ -18,9 +18,12 @@ body {background-image: linear-gradient( to right,  rgba(40,91,212,0.73) -3%, rg
     position: absolute;
     padding: 10px;}
 
-    input { border-radius: 7px;
-    width: 98%;
-    border: grey 1px solid;
+    input { width: 98%;
+    border: none;
+    color: black;
+    background-color: transparent;
+    border-bottom: #201b2c 1px solid;
+    outline: none;
     height: 52px;
     padding: 0px;
     margin-bottom: 15px;}
@@ -28,7 +31,7 @@ body {background-image: linear-gradient( to right,  rgba(40,91,212,0.73) -3%, rg
 button {width: 48%;
     height: 52px;
     border-radius: 7px;
-    border: solid 1px black;
+    border: solid 1px grey;
     background-color: white;
     color: black;
     margin: 0px 2px;
@@ -46,7 +49,7 @@ button:hover {background-color: #5b19b7;
     letter-spacing: 1.5px;
     border-radius: 10px;}
 
-::placeholder {font-size: 1.2em;}
+::placeholder {font-size: 1.2em; padding-top: 20px;}
 
 p {border-top: 1px solid #201b2c;
     padding: 10px;
